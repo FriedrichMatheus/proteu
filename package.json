@@ -1,0 +1,31 @@
+{
+  "name": "proteu",
+  "version": "0.0.0",
+  "description": "A Auth application ",
+  "main": "index.js",
+  "scripts": {
+    "tsc-install": "tsc --init",
+    "start": "tsc & node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FriedrichMatheus/proteu.git"
+  },
+  "keywords": [
+    "Auth"
+  ],
+  "author": "FriedrichMatheus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FriedrichMatheus/proteu/issues"
+  },
+  "homepage": "https://github.com/FriedrichMatheus/proteu#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "prisma": "^4.13.0"
+  }
+}
